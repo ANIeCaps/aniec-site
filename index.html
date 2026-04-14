@@ -53,15 +53,23 @@
 
 <header style="
   background:white;
-  padding:10px 20px;
+  padding:14px 24px;
   display:flex;
-  justify-content:center;
+  justify-content:space-between;
   align-items:center;
   border-bottom:3px solid;
   border-image:linear-gradient(to right, green, white, red) 1;
+  gap:20px;
+  flex-wrap:wrap;
 ">
   <img src="./logo.png" alt="Logo A.N.I. & C. APS"
-     style="max-width:450px; width:100%; height:auto; display:block; width:auto; display:block;">
+       style="max-width:300px; width:100%; height:auto; display:block;">
+
+  <nav style="display:flex; gap:18px; flex-wrap:wrap; font-size:14px; font-weight:bold;">
+    <a href="#servizi" style="text-decoration:none; color:#1e293b;">Servizi</a>
+    <a href="#attivita" style="text-decoration:none; color:#1e293b;">Attività</a>
+    <a href="#contatti" style="text-decoration:none; color:#1e293b;">Contatti</a>
+  </nav>
 </header>
 
 <section class="hero">
@@ -80,7 +88,7 @@
   </p>
 </section>
 
-<section class="section">
+<section class="section" id="servizi">
   <h2>Servizi principali</h2>
 
   <div class="card">
@@ -100,7 +108,7 @@
 
 </section>
 
-<section class="section">
+<section class="section" id="attivita">
   <h2>Attività sociali</h2>
 
   <div class="card">
@@ -115,7 +123,7 @@
 
 </section>
 
-<section class="section">
+<section class="section" id="contatti">
   <h2>Contatti</h2>
   <p>Email: info@anicaps.it</p>
   <p>Telefono: 3279342883</p>
