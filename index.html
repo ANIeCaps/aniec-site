@@ -67,15 +67,18 @@ h3 {
 <body>
 
 <header style="
-  background:white;
-  padding:14px 24px;
+  background:rgba(255,255,255,0.94);
+  padding:16px 28px;
   display:flex;
   justify-content:space-between;
   align-items:center;
-  border-bottom:3px solid;
-  border-image:linear-gradient(to right, green, white, red) 1;
+  border-bottom:1px solid #e2e8f0;
   gap:20px;
   flex-wrap:wrap;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  backdrop-filter:blur(8px);
 ">
   <img src="./logo.png" alt="Logo A.N.I. & C. APS"
        style="max-width:400px; width:100%; height:auto; display:block;">
