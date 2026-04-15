@@ -85,23 +85,38 @@
 
 <body>
 
-<header>
+<header style="
+  background:rgba(255,255,255,0.96);
+  padding:18px 34px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #e2e8f0;
+  gap:24px;
+  flex-wrap:wrap;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  backdrop-filter:blur(10px);
+  box-shadow:0 4px 18px rgba(15,23,42,0.04);
+">
   <img src="./logo.png" alt="Logo A.N.I. & C. APS"
-       style="max-width:300px; width:100%; height:auto; display:block;">
+       style="max-width:320px; width:100%; height:auto; display:block;">
 
-  <nav style="display:flex; gap:20px; flex-wrap:wrap; font-size:14px; font-weight:bold; align-items:center;">
+  <nav style="display:flex; gap:22px; flex-wrap:wrap; font-size:14px; font-weight:bold; align-items:center;">
     <a href="./index.html" style="text-decoration:none; color:#1e293b;">Home</a>
     <a href="./chi-siamo.html" style="text-decoration:none; color:#1e293b;">Chi siamo</a>
     <a href="./servizi.html" style="text-decoration:none; color:#1e293b;">Servizi</a>
     <a href="./sovraindebitamento.html" style="text-decoration:none; color:#1e293b;">Sovraindebitamento</a>
     <a href="./contatti.html" style="
-  text-decoration:none;
-  color:#1e293b;
-  border:1px solid #cbd5e1;
-  padding:10px 16px;
-  border-radius:999px;
-  background:white;
-">Contatti</a>
+      text-decoration:none;
+      color:#1e293b;
+      border:1px solid #cbd5e1;
+      padding:11px 18px;
+      border-radius:999px;
+      background:white;
+      box-shadow:0 4px 10px rgba(15,23,42,0.04);
+    ">Contatti</a>
   </nav>
 </header>
 
