@@ -302,72 +302,45 @@
 
 <body>
 
-<header style="
-  background:rgba(255,255,255,0.96);
-  padding:18px 34px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  border-bottom:1px solid #e2e8f0;
-  gap:24px;
-  flex-wrap:wrap;
-  position:sticky;
-  top:0;
-  z-index:1000;
-  backdrop-filter:blur(10px);
-  box-shadow:0 4px 18px rgba(15,23,42,0.04);
-">
-  <img src="./logo.png" alt="Logo A.N.I. & C. APS"
-       style="max-width:320px; width:100%; height:auto; display:block;">
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="./index.html" class="logo-wrap" aria-label="A.N.I. & C. APS - Home">
+      <img src="./logo.png" alt="Logo A.N.I. & C. APS">
+    </a>
 
-  <nav style="display:flex; gap:22px; flex-wrap:wrap; font-size:14px; font-weight:bold; align-items:center;">
-    <a href="./index.html" style="text-decoration:none; color:#1e293b;">Home</a>
-    <a href="./chi-siamo.html" style="text-decoration:none; color:#1e293b;">Chi siamo</a>
-    <a href="./servizi.html" style="text-decoration:none; color:#1e293b;">Servizi</a>
-    <a href="./sovraindebitamento.html" style="text-decoration:none; color:#1e293b;">Sovraindebitamento</a>
-    <a href="./contatti.html" style="
-      text-decoration:none;
-      color:#1e293b;
-      border:1px solid #cbd5e1;
-      padding:11px 18px;
-      border-radius:999px;
-      background:white;
-      box-shadow:0 4px 10px rgba(15,23,42,0.04);
-    ">Contatti</a>
-  </nav>
+    <nav class="main-nav">
+      <a href="./index.html">Home</a>
+      <a href="./chi-siamo.html">Chi siamo</a>
+      <a href="./servizi.html">Servizi</a>
+      <a href="./sovraindebitamento.html">Sovraindebitamento</a>
+      <a href="./contatti.html" class="nav-cta">Contatti</a>
+    </nav>
+  </div>
 </header>
 
-<div style="height:8px; background:linear-gradient(to right, #1f7a3e, #f8fafc, #c62828);"></div>
+<div class="top-accent"></div>
+
 <section class="hero">
-  <h1 style="font-size:42px; margin-bottom:20px; color:#1e293b;">
-    Comprendere è il primo passo per affrontare qualsiasi difficoltà
-  </h1>
+  <div class="container">
+    <h1>Comprendere è il primo passo per affrontare qualsiasi difficoltà</h1>
 
-  <p style="max-width:900px; margin:0 auto; font-size:18px; line-height:1.7;">
-    <strong>ASSOCIAZIONE NAZIONALE IMPRENDITORI & CONSUMATORI</strong> sviluppa
-    attività di promozione sociale attraverso ascolto, orientamento e informazione,
-    aiutando persone, famiglie e contesti vulnerabili a comprendere situazioni complesse
-    e a individuare i percorsi più adeguati.
-  </p>
+    <p>
+      <strong>ASSOCIAZIONE NAZIONALE IMPRENDITORI &amp; CONSUMATORI</strong>
+      promuove ascolto, orientamento e informazione per aiutare persone, famiglie
+      e contesti vulnerabili a leggere situazioni complesse con maggiore chiarezza.
+    </p>
 
-  <p style="max-width:850px; margin:22px auto 0; font-size:17px; line-height:1.7;">
-    Il primo passo non è risolvere il problema, ma comprenderlo in modo chiaro,
-    ordinato e consapevole.
-  </p>
+    <p>
+      Il primo passo non è risolvere subito il problema, ma comprenderlo in modo
+      ordinato, consapevole e corretto, per individuare il percorso più adeguato.
+    </p>
 
-  <div style="margin-top:30px;">
-    <a href="#contatti" style="
-      display:inline-block;
-      background:#1e293b;
-      color:white;
-      text-decoration:none;
-      padding:14px 26px;
-      border-radius:10px;
-      font-weight:bold;
-    ">Richiedi orientamento</a>
+    <div class="hero-actions">
+      <a href="#contatti" class="btn-primary">Richiedi orientamento</a>
+      <a href="./chi-siamo.html" class="btn-secondary">Scopri l’associazione</a>
+    </div>
   </div>
 </section>
-
   <p>
     <strong>ASSOCIAZIONE NAZIONALE IMPRENDITORI & CONSUMATORI</strong> sviluppa
     attività di promozione sociale attraverso ascolto, orientamento e informazione,
