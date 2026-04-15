@@ -449,48 +449,52 @@
 </section>
 
 <section class="section" id="contatti">
-  <h2 style="font-size:34px; margin-bottom:10px;">Contatti</h2>
+  <div class="container">
+    <h2>Contatti</h2>
 
-  <p style="max-width:850px; line-height:1.7; font-size:17px;">
-    È possibile richiedere un primo orientamento compilando i riferimenti sottostanti.
-    L’associazione fornisce un primo livello di ascolto e indirizzo, utile per comprendere
-    la situazione e individuare il percorso più adeguato.
-  </p>
-
-  <div class="card">
-    <p><strong>Email:</strong> info@anicaps.it</p>
-    <p><strong>Cell.:</strong> 3279342883</p>
-    <p><strong>PEC:</strong> group.multiserviceaniec@pec.it</p>
-  </div>
-
-  <div class="card">
-    <p style="font-size:14px; line-height:1.6;">
-      I dati eventualmente forniti saranno trattati esclusivamente per finalità di
-      ricontatto e gestione della richiesta. Il numero telefonico, se indicato,
-      potrà essere utilizzato solo previo consenso dell’interessato.
-      I dati non saranno in alcun modo diffusi o comunicati a terzi senza autorizzazione.
+    <p class="section-intro">
+      È possibile richiedere un primo orientamento compilando il modulo sottostante.
+      L’associazione offre un primo livello di ascolto e indirizzo utile per comprendere
+      la situazione e individuare il percorso più adeguato.
     </p>
+
+    <div class="card">
+      <h3>Richiedi orientamento</h3>
+
+      <form class="contact-form">
+        <input type="text" placeholder="Nome e cognome" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Telefono (facoltativo)">
+        <textarea placeholder="Descrivi brevemente la tua situazione" rows="5"></textarea>
+
+        <label style="font-size:14px; display:block; margin-top:12px;">
+          <input type="checkbox" required>
+          Autorizzo il trattamento dei dati per essere ricontattato
+        </label>
+
+        <button type="submit" class="btn-primary" style="margin-top:16px;">
+          Invia richiesta
+        </button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h3>Contatti diretti</h3>
+
+      <p><strong>Email:</strong> info@anicaps.it</p>
+      <p><strong>Email supporto:</strong> diritti.difesa@aniecaps.it</p>
+      <p><strong>Telefono:</strong> 3279342883</p>
+      <p><strong>PEC:</strong> group.multiserviceaniec@pec.it</p>
+    </div>
+
+    <div class="card">
+      <p style="font-size:14px; color:var(--muted);">
+        I dati forniti saranno utilizzati esclusivamente per ricontatto e gestione
+        della richiesta. Non saranno diffusi né comunicati a terzi senza autorizzazione.
+      </p>
+    </div>
+
   </div>
-
-  <div style="margin-top:40px; text-align:center;">
-  <a href="mailto:info@anicaps.it" style="
-    display:inline-block;
-    background:#1e293b;
-    color:white;
-    text-decoration:none;
-    padding:16px 30px;
-    border-radius:12px;
-    font-weight:bold;
-    font-size:16px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  ">
-    Richiedi un primo orientamento
-  </a>
-</div>
-
-</section>
-  <p>Email: info@anicaps.it</p>
-  <p>Cell.: 3279342883</p>
 </section>
 
 <footer style="text-align:center; padding:50px 20px; background:#0f172a; color:#e2e8f0;">
