@@ -4,131 +4,32 @@
   <meta charset="UTF-8">
   <title>Contatti - A.N.I. & C. APS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: linear-gradient(to bottom, #f8fafc 0%, #ffffff 18%, #ffffff 100%);
-      color: #1e293b;
-    }
-
-    header {
-      background: rgba(255,255,255,0.94);
-      padding: 16px 28px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #e2e8f0;
-      gap: 20px;
-      flex-wrap: wrap;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      backdrop-filter: blur(8px);
-    }
-
-    .section {
-      padding: 96px 28px;
-      max-width: 1120px;
-      margin: auto;
-    }
-
-     .card {
-      background: white;
-      padding: 30px;
-      margin-top: 26px;
-      border-radius: 20px;
-      box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
-      border: 1px solid #e2e8f0;
-      transition: 0.2s;
-    }
-
-     .card:hover {
-      transform: translateY(-4px);
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 46px;
-      line-height: 1.12;
-      color: #0f172a;
-    }
-
-    h2 {
-      color: #0f172a;
-      margin-bottom: 18px;
-      font-size: 36px;
-    }
-
-    h3 {
-  color: #0f172a;
-  margin-top: 0;
-  margin-bottom: 14px;
-  font-size: 24px;
-}
-
-    .cta-button {
-      display: inline-block;
-      background: #1e293b;
-      color: white;
-      text-decoration: none;
-      padding: 16px 30px;
-      border-radius: 12px;
-      font-weight: bold;
-      font-size: 16px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-    }
-
-    footer {
-      text-align: center;
-      padding: 50px 20px;
-      background: #0f172a;
-      color: #e2e8f0;
-    }
-  </style>
 </head>
 
 <body>
 
-<header style="
-  background:rgba(255,255,255,0.96);
-  padding:18px 34px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  border-bottom:1px solid #e2e8f0;
-  gap:24px;
-  flex-wrap:wrap;
-  position:sticky;
-  top:0;
-  z-index:1000;
-  backdrop-filter:blur(10px);
-  box-shadow:0 4px 18px rgba(15,23,42,0.04);
-">
-  <img src="./logo.png" alt="Logo A.N.I. & C. APS"
-       style="max-width:320px; width:100%; height:auto; display:block;">
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="./index.html" class="logo-wrap" aria-label="A.N.I. & C. APS - Home">
+      <img src="./logo.png" alt="Logo A.N.I. & C. APS">
+    </a>
 
-  <nav style="display:flex; gap:22px; flex-wrap:wrap; font-size:14px; font-weight:bold; align-items:center;">
-    <a href="./index.html" style="text-decoration:none; color:#1e293b;">Home</a>
-    <a href="./chi-siamo.html" style="text-decoration:none; color:#1e293b;">Chi siamo</a>
-    <a href="./servizi.html" style="text-decoration:none; color:#1e293b;">Servizi</a>
-    <a href="./sovraindebitamento.html" style="text-decoration:none; color:#1e293b;">Sovraindebitamento</a>
-    <a href="./contatti.html" style="
-      text-decoration:none;
-      color:#1e293b;
-      border:1px solid #cbd5e1;
-      padding:11px 18px;
-      border-radius:999px;
-      background:white;
-      box-shadow:0 4px 10px rgba(15,23,42,0.04);
-    ">Contatti</a>
-  </nav>
+    <nav class="main-nav">
+      <a href="./index.html">Home</a>
+      <a href="./chi-siamo.html">Chi siamo</a>
+      <a href="./servizi.html">Servizi</a>
+      <a href="./sovraindebitamento.html">Sovraindebitamento</a>
+      <a href="./contatti.html" class="nav-cta">Contatti</a>
+    </nav>
+  </div>
 </header>
-
-<div style="height:4px; background:linear-gradient(to right, #1f7a3e, #f8fafc, #c62828);"></div>
+  
+<div class="top-accent"></div>
 
 <section class="section">
+  <div class="container">
   <h1>Contatti</h1>
 
   <p style="max-width:900px; margin-top:24px; font-size:18px; line-height:1.7;">
@@ -141,9 +42,11 @@
     e orientamento, utile a leggere il contesto e a ricevere un’indicazione
     iniziale in relazione al bisogno rappresentato.
   </p>
+    </div>
 </section>
 
 <section class="section">
+  <div class="container">
   <h2>Recapiti</h2>
 
   <div class="card">
@@ -155,6 +58,7 @@
 </section>
 
 <section class="section">
+  <div class="container">
   <h2>Quando contattarci</h2>
 
   <div class="card">
@@ -178,6 +82,7 @@
 </section>
 
 <section class="section">
+  <div class="container">
   <h2>Natura del servizio</h2>
 
   <div class="card">
@@ -194,6 +99,7 @@
 </section>
 
 <section class="section">
+  <div class="container">
   <h2>Tutela dei dati personali</h2>
 
   <div class="card">
@@ -215,6 +121,7 @@
 </section>
 
 <section class="section">
+  <div class="container">
   <h2>Richiedi un primo orientamento</h2>
 
   <div class="card">
