@@ -583,20 +583,20 @@ h2::after {
 </p>
 
       <form class="contact-form" action="https://formspree.io/f/mrerenzq" method="POST">
-        <input type="text" placeholder="Nome e cognome" required>
-        <input type="email" placeholder="Email" required>
-        <input type="tel" placeholder="Telefono (facoltativo)">
-        <textarea placeholder="Descrivi brevemente la tua situazione" rows="5"></textarea>
+  <input type="text" name="nome" placeholder="Nome e cognome" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="tel" name="telefono" placeholder="Telefono (facoltativo)">
+  <textarea name="messaggio" placeholder="Descrivi brevemente la tua situazione" rows="5"></textarea>
 
-        <label style="font-size:14px; display:block; margin-top:12px;">
-          <input type="checkbox" required>
-          Autorizzo il trattamento dei dati per essere ricontattato
-        </label>
+  <label style="font-size:14px; display:block; margin-top:12px;">
+    <input type="checkbox" name="privacy" required>
+    Autorizzo il trattamento dei dati per essere ricontattato
+  </label>
 
-        <button type="submit" class="btn-primary" style="margin-top:16px;">
-          Invia richiesta
-        </button>
-      </form>
+  <button type="submit" class="btn-primary" style="margin-top:16px;">
+    Invia richiesta
+  </button>
+</form>
     </div>
 
     <div class="card">
