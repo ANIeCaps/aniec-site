@@ -99,6 +99,12 @@ header.site-header {
   padding: 14px 24px;
 }
 
+.logo-wrap img {
+  max-width: 270px;
+  height: auto;
+  display: block;
+}
+
 .main-nav {
   display: flex;
   gap: 20px;
