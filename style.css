@@ -116,6 +116,8 @@ header.site-header {
   text-decoration: none;
   color: var(--navy-dark);
   font-weight: 600;
+  position: relative;
+  transition: 0.25s ease;
 }
 
 .nav-cta {
