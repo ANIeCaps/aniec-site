@@ -50,7 +50,7 @@ h1 {
 h2 {
   font-family: 'Cormorant Garamond', serif;
   font-size: 44px;
-  margin-bottom: 18px;
+  letter-spacing: 0.5px;
 }
 
 h3 {
