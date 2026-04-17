@@ -343,3 +343,26 @@ h2::after {
   background: #f5f8fc;
   transform: translateY(-2px);
 }
+
+.site-header {
+  backdrop-filter: blur(10px);
+}
+
+.main-nav a {
+  position: relative;
+}
+
+.main-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: var(--gold);
+  transition: 0.25s;
+}
+
+.main-nav a:hover::after {
+  width: 100%;
+}
