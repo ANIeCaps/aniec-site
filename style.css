@@ -366,3 +366,16 @@ h2::after {
 .main-nav a:hover::after {
   width: 100%;
 }
+
+.site-footer {
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.site-footer a {
+  color: #e7edf6;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: var(--gold);
+}
