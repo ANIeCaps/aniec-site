@@ -313,3 +313,16 @@ h2::after {
   color: var(--navy);
   text-decoration: none;
 }
+
+.form-privacy {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.form-privacy input {
+  width: auto;
+  margin: 0;
+}
