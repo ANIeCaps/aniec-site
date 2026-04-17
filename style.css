@@ -419,3 +419,13 @@ h2::after {
 .top-bar-inner span {
   opacity: 0.95;
 }
+
+.site-footer,
+footer {
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.site-footer p,
+footer p {
+  margin: 8px 0;
+}
