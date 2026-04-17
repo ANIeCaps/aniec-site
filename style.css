@@ -90,6 +90,8 @@ header.site-header {
   border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
 }
 
 .header-inner {
