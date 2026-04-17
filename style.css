@@ -326,3 +326,20 @@ h2::after {
   width: auto;
   margin: 0;
 }
+
+.btn-secondary {
+  display: inline-block;
+  background: transparent;
+  color: var(--navy);
+  padding: 15px 26px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 1px solid var(--line);
+  transition: 0.25s ease;
+}
+
+.btn-secondary:hover {
+  background: #f5f8fc;
+  transform: translateY(-2px);
+}
