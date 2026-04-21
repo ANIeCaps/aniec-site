@@ -63,6 +63,11 @@ img {
   z-index: 2;
 }
 
+.section .container {
+  position: relative;
+  z-index: 2;
+}
+
 .section::before {
   content: "";
   position: absolute;
