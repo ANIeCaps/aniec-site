@@ -139,6 +139,18 @@ header.site-header,
   overflow: hidden;
 }
 
+.site-header::after {
+  content: "";
+  position: absolute;
+  bottom: -90px;
+  left: -10%;
+  width: 120%;
+  height: 220px;
+  background: #f7f9fc;
+  border-radius: 50%;
+  z-index: 1;
+}
+
 .header-inner {
   display: flex;
   justify-content: space-between;
