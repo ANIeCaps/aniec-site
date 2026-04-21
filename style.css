@@ -708,3 +708,14 @@ footer p {
     animation: none !important;
   }
 }
+
+.card h3,
+.card p,
+.card li {
+  color: #1a2847;
+}
+
+.section p,
+.section li {
+  text-shadow: 0 1px 0 rgba(255,255,255,0.18);
+}
