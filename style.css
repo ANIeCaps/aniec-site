@@ -533,14 +533,13 @@ header.site-header,
 
 .site-footer,
 footer {
-  background:
-    radial-gradient(circle at top, rgba(255,255,255,0.05), transparent 28%),
-    linear-gradient(180deg, #132044 0%, #0e1836 100%);
+  background: rgba(18, 40, 90, 0.85);
+  backdrop-filter: blur(6px);
   color: #edf2fb;
   text-align: center;
   padding: 56px 20px;
-  margin-top: 40px;
-  border-top: 1px solid rgba(255,255,255,0.08);
+  margin-top: 60px;
+  border-top: 1px solid rgba(255,255,255,0.18);
 }
 
 .footer-brand {
