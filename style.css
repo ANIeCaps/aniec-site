@@ -432,33 +432,6 @@ header.site-header,
   height: 100%;
 }
 
-/* dominant first card in 3-col grids */
-.cards-grid-3 .card:first-child {
-  background: linear-gradient(135deg, #162553 0%, var(--navy) 100%);
-  color: rgba(255,255,255,0.92);
-  box-shadow: 0 26px 56px rgba(27, 47, 107, 0.24);
-  border-color: rgba(255,255,255,0.08);
-}
-
-.cards-grid-3 .card:first-child::before {
-  height: 2px;
-  background: linear-gradient(90deg, rgba(255,255,255,0), var(--gold-soft), rgba(255,255,255,0));
-}
-
-.cards-grid-3 .card:first-child h3,
-.cards-grid-3 .card:first-child p,
-.cards-grid-3 .card:first-child li {
-  color: inherit;
-}
-
-.cards-grid-3 .card:first-child .text-link {
-  color: #fff;
-}
-
-.cards-grid-3 .card:first-child .text-link::after {
-  background: linear-gradient(90deg, var(--gold-soft), transparent);
-}
-
 .card h3 {
   margin-bottom: 14px;
 }
