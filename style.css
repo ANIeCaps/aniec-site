@@ -158,10 +158,9 @@ header.site-header,
 }
 
 .logo-wrap img {
-  width: auto;
-  max-width: 280px;
-  max-height: 84px;
-  object-fit: contain;
+  max-width: 380px;
+  height: auto;
+  display: block;
 }
 
 .main-nav {
