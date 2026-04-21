@@ -265,21 +265,6 @@ header.site-header,
   pointer-events: none;
 }
 
-.hero::after {
-  content: "";
-  position: absolute;
-  left: -6%;
-  right: -6%;
-  bottom: 8%;
-  height: 240px;
-  background:
-    linear-gradient(180deg, rgba(255,255,255,0.00), rgba(255,255,255,0.08)),
-    radial-gradient(ellipse at center, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0.00) 70%);
-  border-radius: 50%;
-  filter: blur(2px);
-  pointer-events: none;
-}
-
 .hero .container {
   position: relative;
   z-index: 2;
