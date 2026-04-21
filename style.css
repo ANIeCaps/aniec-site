@@ -356,7 +356,7 @@ header.site-header,
 .btn-primary:hover,
 .cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 24px 42px rgba(27, 47, 107, 0.28);
+  box-shadow: 0 26px 48px rgba(30, 79, 191, 0.32);
 }
 
 .btn-secondary {
