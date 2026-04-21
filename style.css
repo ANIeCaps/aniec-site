@@ -142,8 +142,8 @@ header.site-header,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 22px;
-  padding: 16px 26px;
+  gap: 28px;
+  padding: 24px 26px;
 }
 
 .logo-wrap {
