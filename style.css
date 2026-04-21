@@ -533,13 +533,13 @@ header.site-header,
 
 .site-footer,
 footer {
-  background: rgba(18, 40, 90, 0.85);
-  backdrop-filter: blur(6px);
-  color: #edf2fb;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(8px);
+  color: #1a2a4a;
   text-align: center;
   padding: 56px 20px;
   margin-top: 60px;
-  border-top: 1px solid rgba(255,255,255,0.18);
+  border-top: 1px solid rgba(30, 79, 191, 0.15);
 }
 
 .footer-brand {
