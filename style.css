@@ -200,7 +200,7 @@ header.site-header,
 }
 
 .main-nav a:hover {
-  color: var(--navy);
+  color: #0a3a7a;
   background: rgba(27, 47, 107, 0.05);
   transform: translateY(-1px);
 }
