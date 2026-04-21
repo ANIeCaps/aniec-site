@@ -133,7 +133,7 @@ header.site-header,
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(90deg, #0f2f7a 0%, #1c49b5 30%, #dce6fb 70%, rgba(255,255,255,0.96) 100%);
+  background: linear-gradient(90deg, #0c2a6b 0%, #1a4ed8 32%, #dce6fb 72%, rgba(255,255,255,0.96) 100%);
   border-bottom: 1px solid rgba(27, 47, 107, 0.10);
   backdrop-filter: blur(14px);
 }
