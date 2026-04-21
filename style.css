@@ -147,7 +147,7 @@ header.site-header,
   top: 0;
   z-index: 1000;
   background:
-    linear-gradient(90deg, rgba(36, 78, 170, 0.92) 0%, rgba(28, 83, 194, 0.92) 34%, rgba(222, 234, 251, 0.92) 74%, rgba(255,255,255,0.96) 100%);
+    linear-gradient(90deg, rgba(24, 58, 140, 0.94) 0%, rgba(28, 83, 194, 0.92) 34%, rgba(222, 234, 251, 0.92) 74%, rgba(255,255,255,0.96) 100%);
   border-bottom: 1px solid rgba(27, 47, 107, 0.10);
   backdrop-filter: blur(10px);
   }
