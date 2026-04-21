@@ -177,8 +177,7 @@ header.site-header,
   max-width: 300px;
   height: auto;
   display: block;
-  position: relative;
-  z-index: 2;
+  filter: drop-shadow(0 10px 22px rgba(7, 18, 45, 0.16));
 }
 
 .main-nav {
