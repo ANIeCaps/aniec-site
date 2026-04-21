@@ -133,8 +133,8 @@ header.site-header,
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(255,255,255,0.92);
-  border-bottom: 1px solid rgba(27, 47, 107, 0.08);
+  background: linear-gradient(90deg, #17306b 0%, #24458f 28%, #dce5f6 68%, rgba(255,255,255,0.96) 100%);
+  border-bottom: 1px solid rgba(27, 47, 107, 0.10);
   backdrop-filter: blur(14px);
 }
 
