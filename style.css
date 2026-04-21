@@ -725,3 +725,9 @@ footer p {
 .section li {
   text-shadow: 0 1px 0 rgba(255,255,255,0.18);
 }
+
+.section > .container p,
+.section .section-intro,
+.section .container > p {
+  color: #23385f;
+}
