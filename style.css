@@ -133,7 +133,7 @@ header.site-header,
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: linear-gradient(90deg, #0a3a7a 0%, #2f6fc2 55%, #eaf1fb 100%);
+  background: linear-gradient(90deg, #08245c 0%, #123a88 34%, #2f6fc2 62%, #edf3ff 100%);
   border-bottom: 1px solid rgba(27, 47, 107, 0.10);
   backdrop-filter: blur(14px);
   overflow: hidden;
