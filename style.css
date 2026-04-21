@@ -190,7 +190,7 @@ header.site-header,
 .main-nav a {
   position: relative;
   text-decoration: none;
-  color: #1a1a1a;
+  color: var(--navy-dark);
   font-weight: 600;
   font-size: 15px;
   padding: 11px 14px;
