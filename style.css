@@ -392,9 +392,9 @@ header.site-header,
 .card {
   position: relative;
   background:
-    linear-gradient(180deg, rgba(255,255,255,0.88), rgba(244,248,255,0.82));
+    linear-gradient(180deg, rgba(255,255,255,0.93), rgba(244,248,255,0.88));
   padding: 34px 32px;
-  border: 1px solid rgba(255,255,255,0.34);
+  border: 1px solid rgba(255,255,255,0.42);
   border-radius: 26px;
   box-shadow: 0 18px 40px rgba(19, 39, 89, 0.10);
   overflow: hidden;
