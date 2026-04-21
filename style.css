@@ -190,13 +190,12 @@ header.site-header,
 .main-nav a {
   position: relative;
   text-decoration: none;
-  color: var(--navy-dark);
+  color: #18305f;
   font-weight: 600;
   font-size: 15px;
   padding: 11px 14px;
   border-radius: 999px;
   transition: color 0.25s ease, background 0.25s ease, transform 0.25s ease;
-  z-index: 2;
 }
 
 .main-nav a:hover {
