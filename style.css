@@ -157,6 +157,8 @@ header.site-header,
   align-items: center;
   gap: 28px;
   padding: 24px 26px;
+  position: relative;
+  z-index: 2;
 }
 
 .logo-wrap {
