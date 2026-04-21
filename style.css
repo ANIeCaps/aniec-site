@@ -546,11 +546,12 @@ footer {
   font-family: 'Cormorant Garamond', serif;
   font-size: 30px;
   font-weight: 700;
+  color: #13244a;
 }
 
 .footer-small {
   font-size: 14px;
-  color: rgba(225,233,247,0.72);
+  color: #3a4f78;
 }
 
 .site-footer a,
