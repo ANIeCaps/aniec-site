@@ -142,11 +142,11 @@ header.site-header,
 .site-header::after {
   content: "";
   position: absolute;
-  bottom: -90px;
-  left: -10%;
-  width: 120%;
+  bottom: -110px;
+  right: -8%;
+  width: 72%;
   height: 220px;
-  background: #f7f9fc;
+  background: rgba(247, 249, 252, 0.92);
   border-radius: 50%;
   z-index: 1;
 }
