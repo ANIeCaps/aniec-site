@@ -142,18 +142,6 @@ header.site-header,
   backdrop-filter: blur(10px);
   }
 
-.site-header::after {
-  content: "";
-  position: absolute;
-  bottom: -110px;
-  right: -8%;
-  width: 72%;
-  height: 220px;
-  background: rgba(247, 249, 252, 0.92);
-  border-radius: 50%;
-  z-index: 1;
-}
-
 .header-inner {
   display: flex;
   justify-content: space-between;
