@@ -55,7 +55,7 @@ img {
 
 .section {
   position: relative;
-  padding: 96px 0;
+  padding: 110px 0 96px;
 }
 
 .section .container {
