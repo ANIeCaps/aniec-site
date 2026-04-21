@@ -129,8 +129,9 @@ li {
 
 .section-intro {
   max-width: 780px;
-  color: #3f5274;
+  color: #2b4067;
   font-size: 18px;
+  line-height: 1.85;
 }
 
 .top-bar {
