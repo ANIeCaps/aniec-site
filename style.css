@@ -60,7 +60,7 @@ img {
 
 .section:nth-of-type(even) {
   background:
-    linear-gradient(180deg, rgba(27, 47, 107, 0.02), rgba(27, 47, 107, 0.00));
+    linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.00));
 }
 
 h1, h2, h3 {
