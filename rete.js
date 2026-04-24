@@ -1,0 +1,1 @@
+function checkCode(){const code=document.getElementById('accessCode').value.trim();const error=document.getElementById('error');if(code==='!QAZAnIeC=OKM'){document.getElementById('locked').classList.add('hidden');document.getElementById('reserved').classList.remove('hidden');}else{error.textContent='Codice non valido. Richiedi autorizzazione allo staff ANI&C APS.';}}
