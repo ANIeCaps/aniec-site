@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+<h1>Bullismo e Cyberbullismo</h1>
+
+<div class="img-placeholder"></div>
+
+<h2>Cos’è</h2>
+<p>Descrizione...</p>
+
+<h2>Prevenzione</h2>
+<p>Indicazioni...</p>
+
+</div>
+
+</body>
+</html>
