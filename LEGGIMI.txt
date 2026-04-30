@@ -1,0 +1,7 @@
+ISTRUZIONI IMPORTANTI
+
+1. Carica su GitHub il CONTENUTO di questa cartella, non la cartella intera.
+2. Nella prima pagina del branch versione-2 devono vedersi subito: index.html, style.css, img, chi-siamo.html, servizi.html, contatti.html.
+3. La cartella img contiene già sfondi, onde, illustrazione e logo di appoggio.
+4. Se vuoi usare il tuo logo originale, sostituisci SOLO questo file: img/logo-premium-trasparente.png mantenendo lo stesso nome.
+5. Dopo il commit, aspetta il deploy Vercel e apri il link Preview del branch versione-2.
